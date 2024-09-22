@@ -1,0 +1,31 @@
+{
+    "text": {
+        "txt1":"WELCOME TO THE BONNA FAMILY.",
+        "txt2":"We are so happy to meet you.",
+        "txt3":"We have defined an introductory discount for you.",
+        "success":"Success",
+        "back":"Back",
+        "thanks":"THANKS",
+        "thanksMessage":"We would be happy to be a solution partner to provide a perfect food and beverage experience and accompany you in your enjoyable moments."
+    },
+    "muiElements":{
+        "nameSurname":"Name Surname",
+        "mail":"Mail",
+        "phone":"Phone",
+        "country":"Country",
+        "job":"Job",
+        "description":"Description",
+        "company":"Company",
+        "btnText":"Send",
+        "GDPR":"I have read and accept the GDPR policy.",
+        "subscription":"Electronic messages to be informed about campaigns I agree to take it.",
+        "click":"Click"
+    },
+    "jobs":{
+        "businessowner":"Business Owner",
+        "chef":"Chef",
+        "f&b":"F&B",
+        "architect":"Architect",
+        "other":"Other"
+    }
+}
