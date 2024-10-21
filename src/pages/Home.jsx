@@ -167,23 +167,14 @@ export const Home = () => {
 
   return (
 
-    <div>
-
+    <>
+    <div id='mobileError'></div>
+    <div id='homePage'>
 
       <Grid container spacing={0} sx={{ minHeight: '100vh' }}>
         {/* Resim Kolonu */}
         <Grid item xs={12} md={9}>
           <Box sx={{ width: '100%', height: '100%' }}>
-            {/* <CardMedia
-              component='img'
-              image={landingImg}
-              loading='lazy'
-              sx={{
-                objectFit: 'cover',
-                height: '100%',
-                width: '100%'
-              }}
-            /> */}
 
             <CardMedia
               component='img'
@@ -192,8 +183,8 @@ export const Home = () => {
               sx={{
                 objectFit: 'cover',  // Resmi alanına sığdırır, gerekirse keser
                 height: {
-                  xs: '40vh',  // Ekran küçükse (mobile) yükseklik %40
-                  sm: '50vh',  // Ekran biraz daha büyükse %50
+                  xs: '100%',  // Ekran küçükse (mobile) yükseklik %40
+                  sm: '100%',  // Ekran biraz daha büyükse %50
                   md: '100%',  // Orta büyüklükteki ekranlarda %100
                   lg: '100%',  // Büyük ekranlarda %100
                 },
@@ -641,9 +632,7 @@ export const Home = () => {
         </Grid>
       </Grid>
 
-
-
     </div>
-
+    </>
   )
 }

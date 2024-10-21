@@ -20,3 +20,30 @@
   content:"Loading..."
 }
 @keyframes l4 {to{clip-path: inset(0 -1ch 0 0)}}
+
+
+@media only screen and (min-width: 461px) {
+  #homePage,#thanksPage {
+    display: none;
+  }
+
+  #mobileError::before {
+    content: "This is a mobile view 📲";
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+  }
+}
+
+/* Show homePage and hide mobileError for screens between 365px and 600px */
+@media only screen and (max-width: 460px) {
+  #homePage {
+    display: block;
+  }
+
+  #mobileError {
+    display: none;
+  }
+}
