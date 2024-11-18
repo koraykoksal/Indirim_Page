@@ -3,10 +3,10 @@
         "txt1": "BONNA AİLESİNE HOŞ GELDİNİZ.",
         "txt2": "Sizinle tanıştığımız için çok mutluyuz.",
         "txt3": "Sizler için bir tanışma indirimi tanımladık.",
-        "success":"Başarılı",
-        "back":"Geri",
-        "thanks":"TEŞEKKÜRLER",
-        "thanksMessage":"Mükemmel bir yeme içme deneyimi sunmaya çözüm ortaklığı yapmak ve keyifli anlarınıza eşlik etmekten mutluluk duyarız."
+        "success": "Başarılı",
+        "back": "Geri",
+        "thanks": "Teşekkürler",
+        "thanksMessage": " Mükemmel bir yeme içme deneyimi sunmaya çözüm ortaklığı yapmak ve keyifli anlarınıza eşlik etmekten mutluluk duyarız.\nTanışma indiriminiz tanımlandı! Size en yakın Bonna bayisine uğrayarak bu özel indirimi hemen kullanabilirsiniz. En yakın bayi bilgisi için info@bonna.com.tr adresinden ya da Instagram hesabımız @bonna.tr 'den bizimle iletişime geçebilirsiniz!"
     },
     "muiElements": {
         "nameSurname": "İsim Soyisim",
@@ -14,12 +14,12 @@
         "phone": "Telefon",
         "country": "Ülke",
         "job": "Meslek",
-        "description":"Açıklama",
+        "description": "Açıklama",
         "company": "Şirket İsmi",
         "btnText": "Gönder",
         "GDPR": " KVKK politikasını okudum ve kabul ediyorum.",
         "subscription": "Kampanyalardan haberdar olmak için elektronik iletileri almayı kabul ediyorum.",
-        "click":"Tıkla"
+        "click": "Tıkla"
     },
     "jobs": {
         "businessowner": "İşletme Sahibi",

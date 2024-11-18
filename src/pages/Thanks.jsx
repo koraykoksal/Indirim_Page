@@ -18,7 +18,7 @@ const Thanks = () => {
     return (
 
         <>
-        <div id='mobileError'></div>
+            <div id='mobileError'></div>
             <div id='thanksPage'>
 
                 {
@@ -82,7 +82,32 @@ const Thanks = () => {
                                             fontFamily={fontStyle.catamaran}
                                             fontSize={20}
                                         >
-                                            {t('text.thanksMessage')}
+                                            {/* {t('text.thanksMessage')} */}
+                                            {
+                                                i18n.language === "tr" ?
+                                                    <div>
+                                                        <p>
+                                                        Mükemmel bir yeme içme deneyimi sunmaya çözüm ortaklığı yapmak ve keyifli anlarınıza eşlik etmekten mutluluk duyarız.Tanışma indiriminiz tanımlandı! 
+                                                        <br/>
+                                                        Size en yakın Bonna bayisine uğrayarak bu özel indirimi hemen kullanabilirsiniz. 
+                                                        <br/><br/>
+                                                        En yakın bayi bilgisi için <b>info@bonna.com.tr</b> adresinden ya da Instagram hesabımız <b>@bonna.tr</b> 'den bizimle iletişime geçebilirsiniz!
+                                                        </p>
+                                                    </div>
+                                                    :
+                                                    <div>
+                                                        <p>
+                                                            We would be happy to be a solution partner to provide a perfect Food and beverage experience and accompany you in your enjoyable moments. 
+                                                            <br/>
+                                                            Your welcome discount has been activated! Visit your nearest Bonna dealer to take advantage of this special offer right away.
+                                                            <br/><br/>
+                                                            For details on the closest dealer, feel free to contact us at <b>info@bonna.com.tr</b> or reach out via our Instagram account
+                                                            <b>
+                                                                @bonna.tr
+                                                            </b>
+                                                        </p>
+                                                    </div>
+                                            }
                                         </Typography>
 
                                         <CardMedia
