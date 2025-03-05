@@ -19,8 +19,6 @@ export const NotFound = () => {
 
     <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', alignItems: 'center', backgroundColor: '#000', overflow: 'auto', height: '100vh' }}>
 
-
-
       <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 3 }}>
         <Typography sx={style}>404</Typography>
         <Typography sx={style}>NOT FOUND</Typography>

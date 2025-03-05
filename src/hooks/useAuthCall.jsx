@@ -18,7 +18,6 @@ const useAuthCall = () => {
     const computerLanguage = navigator.language.split('-')[0] // "en-US" gibi bir değeri "en" yapar
 
 
-
     function formatDate(dateStr) {
         const parts = dateStr.split(' ')[0].split('-')
         return `${parts[0]}-${parts[1]}-${parts[2]}`
@@ -48,6 +47,7 @@ const useAuthCall = () => {
 
     }
 
+
     const logout = async () => {
 
 
@@ -74,6 +74,7 @@ const useAuthCall = () => {
             toastErrorNotify(error.message);
         }
     }
+
 
     const getFireDB = (address,dateFrom,dateTo) => {
 
@@ -115,7 +116,6 @@ const useAuthCall = () => {
 
         }
     }
-
 
     //! firebase data silme
     const removeFirebaseData = async (address, id) => {
